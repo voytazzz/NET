@@ -1,0 +1,13 @@
+﻿@model int
+
+@for (int i = 1; i <= 5; i++)
+{
+    if (i <= Model)
+    {
+        <span title="@i" style="color: gold;">&#x2605;</span>
+    }
+    else
+    {
+        <span title="@i">&#x2606;</span>
+    }
+}
