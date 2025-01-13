@@ -1,0 +1,1 @@
+Przykładowy mini projekt
